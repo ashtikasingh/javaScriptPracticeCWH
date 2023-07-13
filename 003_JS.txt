@@ -1,0 +1,64 @@
+//13 JULY 2023
+
+--09 For Loops in JS
+
+for      :- loop a block of code n times 
+for in   :- loop through the keys of an object 
+for of   :- loop through the values of an object 
+while    :- loop a block based on a specfic condition
+do-while :- while loop variant which runs atleast once
+
+for in:-
+
+let obj ={
+    h:10,
+    y:56,
+    f:67,
+    s:78
+}
+
+for(let a in obj){
+    console.log(a+" "+obj[a]);
+}
+
+for of:-
+
+works for only interator obj exaple array
+for(let b of "ASHTIKA"){
+    console.log(b);
+}
+
+--10 while and do-while loop
+
+do{
+    console.log(u);
+    i++;
+}while(i<n);
+
+--11 functions
+
+//normal
+
+function name(arg1, arg2){
+    console.log(a);
+    return a;
+}
+
+name(p1,p2) //calling
+
+//arrow function
+
+const sum = (a,b)=>{
+    return a+b;
+}
+
+sum(a,b);
+
+//with aruments function
+
+const hello= ()=>{
+    console.log("Hey how are u");
+}
+hello();
+
+
