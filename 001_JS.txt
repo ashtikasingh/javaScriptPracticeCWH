@@ -1,0 +1,29 @@
+13 July 2023
+---------------------------------------------------------
+--03 const, let and var in JS
+
+var used for defining a variable but now a day not used beacuse a bug may be incroduced to your code.
+found in pre-ES6
+
+const used for constant
+
+let used for block scope variable
+
+--04 Primitives and Objects in JS
+
+7 types of the Primitives datatypes 
+they are fundamentable datatypes which are builded in JS
+
+trick to remember:- NNSSBBU 
+Null 
+Number 
+Symbol() 
+String 
+Boolean 
+Bigint()
+Undefined 
+
+Objects are key-value pairs (Non-Primitive datatypes)
+
+
+
