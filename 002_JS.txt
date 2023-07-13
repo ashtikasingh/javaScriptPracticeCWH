@@ -1,0 +1,41 @@
+--06 Expression and Operations 
+
+/ will show acurate result
+a**b = a to the power b
+
+a = 10
+a++ = 10
+a = 11
+
+b = 10
+++b = 11
+b = 11
+
+same with -
+
+Arthmetic Operation +,-,*,**,/,%,++,--
+Assignment Operation =,+=,-=,*=,/=,%=,**=
+Comparison Operation ==,!=,===,!==,>,<,<=,>=,?
+Logical Operators &&,||,!
+
+Bitwise operator :- checks bit by bit  
+comment //, /*    */
+
+--07 Conditional Expressions
+
+if
+if..else
+if..else if..else 
+switch
+
+//prompt ask questions
+let a = prompt("Hey what's your name ?")  what u type will be always typeof String
+
+//alert tells yous anything
+alert("hey")
+
+a=Number.parseInt(a) //converting the string to a Number
+script tag 
+
+ternary :- Condition ? exp1 : exp2
+ 
