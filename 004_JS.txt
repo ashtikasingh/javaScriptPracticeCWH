@@ -1,0 +1,43 @@
+//14 JULY 2023
+
+--13 String in JS
+collection of character is String
+
+let name = 'ash';
+let n = "ash";
+
+name.length
+name[0]=a
+name[1]=s
+name[2]=h
+
+Template Literals
+
+let b1 = "boy1";
+let b2 = "boy2";
+
+let sec = `${b1} is a friend of ${b2}` //string interpolation
+
+Escape sequence character
+
+let = 'bana\'na';
+
+--14 String methods 
+
+let name = "Ashtika";
+name.length = 7
+name.toUpperCase() = ASHTIKA
+name.toLowerCase() = Ashtika
+name.slice(2,4) = index 2 se index 3 tak last vala not included = ht
+name.slice(2) = htika
+
+n = "ash singh"
+new = n.replace("ash", "ashtika");
+
+surname = singh;
+newww = name.concat(surname, "yes")=ashtika singh yes
+
+name = "    ashtika  ";
+newname = name.trim() = ashtika-----removes whitespaces
+
+strings are immutable 
