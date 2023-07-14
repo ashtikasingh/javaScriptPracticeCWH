@@ -1,0 +1,117 @@
+//14 JULY 2023
+
+--16 Arrays in js
+
+Array is collection of items
+
+const fruits = [1,2,3,4];
+const mix = [1, "mix", true, null];
+console.log(fruits);
+
+fruits[0] // 1;
+fruits[5] // undefined
+fruits.length
+
+fruits[6] = 7 //add new value in array
+fruit[3] = 78 //changing the value from current array
+
+arrays are mutable and can be changed
+
+array is a Object
+
+--17 Arrays methods in JS
+
+let num= [1,2,3,4,5];
+
+let b = num.toString(); //now a string
+
+let c = num.join("_"); //1_2_3_4_5 //string hai
+
+num.pop() //5
+consoleo.log(num) //1,2,3,4 //change the original array
+
+num.push(56) //new array length
+consoleo.log(num) //1,2,3,4, 56 //change the original array
+
+num.shift() //1
+consoleo.log(num) //2,3,4, 56 //change the original array
+
+num.unshift(32) //arraylength new
+console.log(num) //32,1,2,3,4 //change the original array
+
+--18 some more array methods in js
+
+delete is a oprator
+
+delete(num[0]) //32
+console.log(num) //one empty item, 1,2,3,4 //no length change
+
+num2 = [5,6,7,8];
+let newarr = num.concat(num2,num3);
+
+num.sort(); //modified the orginal array; //sorts alphatecally
+
+let compare = (a,b) => {
+    return a-b //acessding
+    return b-a //decending
+}
+num.sort(compare)
+
+num.reverse() //ulta the orginal array
+
+splice(kaha add karna hai(index), kitna elements remove karna hai, jo element add karna hai)
+num.splice(2,3,1021,1231) //returns deleted items
+moditifes the orginal array
+
+slice same as string // does't modify new array
+
+--19 using loops with arrays in JS
+
+for loop
+
+loop hai bas
+num.forEach((element)=>{
+    cosole.log(element*element)
+})
+
+Array from = used to create an array from any other object
+Array.from("Ashtika");
+
+for..of => used to get the values from an array--for jesa he hai 
+
+for(let i of num){}
+
+for..in => can be used to get the keys from an array
+index he print kardega..console.log(num[i]);
+for(let i in num){}
+
+--20 Map, Filter & Reduce in JS
+Higher order array methods
+
+map():- craete a new array by performing some operation on each array element
+
+const a =[1,2,3,4];
+a.map((value,index,array)=>{ //koi bhi sab mai bhi
+    return value*value
+})
+
+filter() :- filters an array with values that passes a test. Creates a new array 
+
+cosnt a = [1,2,3,4,5]
+a.filter((b)=>{
+    return a<5;
+})
+
+reduce() :- Reduces an array to a single value
+
+let arr3 = [1,2,3,4,4,5,5,51,1];
+ 
+arr3.reduce((h1,h2)=>{
+    return h1+h2;
+})
+
+
+
+
+
+
