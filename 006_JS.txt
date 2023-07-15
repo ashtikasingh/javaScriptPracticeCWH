@@ -1,0 +1,48 @@
+//15 JULY 2023
+
+--23 JS in browser 
+
+html:- skeleton 
+css:- styling
+js:- logic 
+
+
+--24 script tag
+
+<script src="scrijt.js"></script>
+
+Advantages of using separate script file using src attribute of script tag
+
+1. separation of concerns
+2. Brower  caching 
+
+--25 console object 
+
+console.log
+console.error 
+
+console.time
+console.timeEnd
+
+console.assert
+cosnole.clerar()
+console.table(obj) //will show the array or obj in tabular form 
+console.log(console);
+console.warn
+console.info
+
+--26 alert, prompt & confirm
+
+alert("Your script works");
+let a = prompt("enter the value?", "default value jo phele he likha rahega");
+let write = confirm("do u want me to write");
+
+--28 DOM,BOM & Window Object 
+
+BOM:- Browser Object Model :-alert,prompt, confirm, host env provide karta hai..browser
+DOM:- Document Object Model  :- pure html ko object bana ke document bol diya 
+
+
+
+
+
