@@ -1,0 +1,53 @@
+//16 JULY 2023
+
+--31 walking the dom
+
+dom tree
+->text node
+->element node 
+->comment node 
+
+Autocorrection
+
+--32 Accessing children of an element 
+
+document.body.firstChild -> firstChild
+document.body.lastChild -> lastChild
+document.body.childNodes ->All childNodes
+
+Always trueeeeeeee......
+elem.childNodes[0]===elem.firstChild;
+elem.childNodes[ele.childNodes.length-1]===elem.lastChild;
+
+ele.hasChildNodes() -> to check whether there are any child nodes
+
+childNodes are like array but a node list 
+let arr = Array.from(document.body.childNodes) //now it's an array 
+
+--33 Parents and siblings of an element 
+
+used for of
+
+document.documentElement.parentNode //document
+document.documentElement.parentElement //null
+
+--34 Element only navigation
+
+using element in the above codes 
+
+--35 Table Navigation 
+
+all about table codes 
+
+--36 Searching the DOM
+ 
+ document.getElementsByClassName()
+ c.style.body = "red";
+
+--37 matches, closest and contains 
+
+elem.matches (css) -> to check if element matches the given css selector
+
+elem.closest (css) -> to look for the nearest ancestor that matches the given css-selector. The elem itself is also checked 
+
+elem.contains (element) -> returns true if elemB is inside elemA (a decendant of elemA) or when elemA==elemB
