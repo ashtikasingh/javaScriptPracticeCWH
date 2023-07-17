@@ -1,0 +1,51 @@
+//17 july 2023
+
+--41 innerHTML, outerHTML and other properties
+
+--42 HTML attributes and their methods
+
+.getAttribute()
+.hasAttribute()
+.setAttribute()
+.removeAttribute()
+.attributes()
+
+--43 HTML insertion methods
+
+.createElement('div');
+.append()
+.prepend()
+.appendChild()
+.after()
+.before()
+
+--44 insertAdjacentHTML, insertAdjacentElement and insertAdjacentText
+
+beforebegin 
+afterbegin
+beforeend
+afterend
+
+--45 changing HTML classes using javascript className and classList
+.classList
+.classList.add 
+.classList.remove 
+.classList.Toggle 
+classList.contains 
+
+--46 setInverval and setTimeout in js
+
+ let a = setTimeout(function(){
+    alert("hello")
+ },5000)
+
+clearTimeout(a); 
+
+--47 Browser events 
+
+onClick 
+
+--48 Handling Browser Events 
+
+addEventListener(event, handler);
+removeEventListener(event, listener);
