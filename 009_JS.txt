@@ -1,0 +1,47 @@
+//18 july 2023
+
+--52 introduction to callbacks
+Syncronous
+Asyncronous
+
+callbacks
+error handling
+
+--53 callback hell & pyramid of doom
+
+both are the same thing i.e callback ke under callback ke under callback....
+
+--54 introduction to promises
+used for parallel execution
+
+--55 Promise .then() and .catch()
+
+let p = new Promise((resolve,reject)=>{
+})
+
+.then if promise is fulfiled and goes ahead
+.catch if promise is rejected and instead of showing error we can show custom message
+
+--56 Promise Chaining .then() calls
+
+ek promise ke baad fir promise and fir promise and so on is call promise chaining by using .then()
+
+--57 Attaching multiple handlers to a promise
+different from chaining as in chaining one promise value is used in next promise and so on
+
+--58 Promise API
+all methods
+.all
+.allSettled
+.race
+.any
+.resolve
+.reject
+
+--59 Async/Await
+
+--60 Error Handling try and catch 
+
+--61 error object and custom errors
+error.name 
+error.message 
