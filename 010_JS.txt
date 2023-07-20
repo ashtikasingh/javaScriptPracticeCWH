@@ -9,3 +9,8 @@ p.then((value)=>{
 })
 
 --67 sending POST request with Fetch APi
+
+--68 cookies in js
+ 
+--69 localStrong & realted methods 
+
